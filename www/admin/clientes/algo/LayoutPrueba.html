@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion De Citas</title>
+    <link rel="stylesheet" type="text/css" href="LayoutPrueba.css">
+</head>
+<style>@media screen and (max-width: 1366px) {
+      body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      height: 100vh;
+      background: rgb(255, 255, 255);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center;
+      color: white;
+      font-size: 12px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      position: relative;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: bold;
+      color: #1a191e;
+      background: #ffffff;
+      font-size: 20px;
+      padding: 1em 0 2em 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+      padding: 10px 20px;
+      box-shadow: 0px 5px 10px rgba(110, 110, 110, 0.3);
+    }
+
+    .main {
+      display: flex;
+      flex: 1 1 100px;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .left, .right {
+      background: white;
+      color: #1a191e;
+      padding: 3em 0;
+      flex: 1 1 100px;
+    }
+
+    main {
+      background: rgb(255, 255, 255);
+      color: #1a191e;
+      padding: 3em 0;
+      flex: 1 1 100px;
+    }
+
+    footer {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background: rgb(255, 255, 255);
+      background-color: #1a191e;
+      font-size: 16px;
+      padding: 1em 0;
+    } 
+}</style>
+<body>
+    <header>
+        <div class="header-left">
+            Thaiz - Spa
+        </div>
+        <div class="header-right">
+            <a href="Prueba.html">Inicio</a>
+            <a href="#">Iniciar Sesión</a>
+            <a href="#">Registrarse</a>
+        </div>
+    </header>
+    <div class="main">
+        <aside class="left">
+            <h1>Cuidado De Cabello</h1>
+            <div class="image-container2">
+                <img src="https://sawasaudi.com/storage/news/2023/07/2023-07-25-1690270201.webp" alt="Imagen de Spa">
+            </div>
+            <div class="container">
+               
+                <div class="button-container">
+                    <button id="Prueba1" value="1" onclick="verServicio(1)" >Sacar Cita</button>
+                    <span>Corte varón</span>
+                </div>
+                <div class="button-container">
+                    <button id="Prueba2" value="2" onclick="verServicio(2)" >Sacar Cita</button>
+                    <span>Corte dama</span>
+                </div>
+                <div class="button-container">
+                    <button id="Prueba3" value="3" onclick="verServicio(3)" >Sacar Cita</button>
+                    <span>Corte niños</span>
+                </div>
+                <div class="button-container">
+                    <button id="Prueba4" value="10" onclick="verServicio(4)" >Sacar Cita</button>
+                    <span>Tratamiento de Keratina</span>
+                </div>
+
+            </div>
+        </aside>
+        <main>
+            <h1 style="letter-spacing: 2.27px;">Servicios De Spa</h1>
+            <div class="image-container3">
+                <img src="https://schnarwiler.sirv.com/magento/catalog/category/partner1.jpg?scale.option=fill&w=400&h=0"
+                    alt="Imagen de Spa">
+            </div>
+            <div class="container3">
+                <div class="button-container3">
+                    <button id="Prueba5" value="4" onclick="verServicio(5)" >Sacar Cita</button>
+                    <span>Limpieza Facial</span>
+                </div>
+                <div class="button-container3">
+                    <button id="Prueba6" value="5" onclick="verServicio(6)" >Sacar Cita</button>
+                    <span>Mascarillas Faciales</span>
+                </div>
+                <div class="button-container3">
+                    <button id="Prueba7" value="6" onclick="verServicio(7)" >Sacar Cita</button>
+                    <span>Masajes</span>
+                </div>
+                <div class="button-container3">
+                    <button id="Prueba8" value="11" onclick="verServicio(8)" >Sacar Cita</button>
+                    <span>Extensiones de pestaña</span>
+                </div>
+                <div class="button-container3">
+                    <button id="Prueba9" value="12" onclick="verServicio(9)" >Sacar Cita</button>
+                    <span>Asesoramiento de imagen</span>
+                </div>
+            </div>
+           
+               
+        </main>
+        <aside class="right">
+            <h1 style="letter-spacing: 1.97px;">Cuidado De Uñas</h1>
+            <div class="image-container4">
+                <img src="https://t3.ftcdn.net/jpg/03/38/18/48/360_F_338184827_LLLaGWviaInWFJDMPv2LJCdTXENmlMtw.jpg" alt="Imagen de Spa">
+            </div>
+            <div class="container2">
+                <div class="button-container2">
+                    <button id="Prueba10" value="7" onclick="verServicio(10)" >Sacar Cita</button>
+                    <span>Manicura</span>
+               
+               
+    </div>
+    </div>
+    </aside>
+    </div>
+    <footer>
+        <div class="footer-column">
+            <p>Thaiz - Spa</p>
+            <p>berlizhuaman2012@hotmail.com</p>
+            <p>975 440 945</p>
+            <p>2024 - Taller de Proyectos</p>
+        </div>
+    </footer>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Gestion de citas</h2>
+
+            <div class="form-group">
+
+                <input id="fecha" name="valor" type="date" class="form-control" min="2024-01-01" max="2025-12-31"
+                    style="border-radius: 10px;box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.301); margin-top: 10px; text-align: center;">
+                <script>
+                    (function () {
+                        var fechaInput = document.getElementById("fecha");
+                        var hoy = new Date().toISOString().split('T')[0];
+                        fechaInput.value = hoy;
+                    })();
+                </script>
+                <p>No olvides escoger una fecha</p style="text-align=center">
+
+            </div>
+
+            <div class="image-container"></div>
+            <img src="https://sawasaudi.com/storage/news/2023/07/2023-07-25-1690270201.webp" class="Yochambeando">
+            <div class="ModalBotones">
+                <button type="button" id="btn1" onclick="verValorFecha(1)" value="08:00:00">8:00 - 9:00</button>
+                <button type="button" id="btn2" onclick="verValorFecha(2)" value="09:00:00">9:00 - 10:00</button>
+                <button type="button" id="btn3" onclick="verValorFecha(3)" value="10:00:00">10:00 - 11:00</button>
+                <button type="button" id="btn4" onclick="verValorFecha(4)" value="11:00:00">11:00 - 12:00</button>
+                <button type="button" id="btn5" onclick="verValorFecha(5)" value="12:00:00">12:00 - 1:00</button>
+                <button type="button" id="btn6" onclick="verValorFecha(6)" value="13:00:00">1:00 - 2:00</button>
+                <button type="button" id="btn7" onclick="verValorFecha(7)" value="15:00:00">3:00 - 4:00</button>
+                <button type="button" id="btn8" onclick="verValorFecha(8)" value="16:00:00">4:00 - 5:00</button>
+                <button type="button" id="btn9" onclick="verValorFecha(9)" value="17:00:00">5:00 - 6:00</button>
+            </div>
+            <div class="Descuento">
+                <div class="column">
+                    <p>¿Tienes un descuento?</p>
+                    <p>Ingrésalo aquí</p>
+                </div>
+                <input type="number" placeholder="Ingresa el código" class="codigo-input">
+            </div>
+            <div class="form-group">
+                <label for="valor" >Ocultar al terminar</label>
+                <input id="recolector" name="valor" type="text" class="form-control" placeholder="ingresa un valor" style="text-align: center;">
+            </div>
+            <div class="form-group">
+                <input id="recolector-servicios" name="valor" type="text" class="form-control" placeholder="ingresa # servicio" hidden style="text-align: center;">
+            </div>
+            <button class="continuar-btn" type="button" onclick="GuardarCita()">Continuar</button>
+            <script src="../js/script.js"></script>
+            <script>
+           const modal = document.getElementById('modal');
+           const closeButton = document.querySelector('.close');
+           const imageElement = document.querySelector('.Yochambeando');
+
+            const images = {
+                Prueba1: "https://pamelan.cl/wp-content/uploads/2019/12/Corte_cabello_varon3_1000.jpg",
+                Prueba2: "https://www.shutterstock.com/image-photo/woman-having-new-haircut-male-600nw-2090819947.jpg",
+                Prueba3: "https://aprende.com/wp-content/uploads/2023/11/nino-buzz-cut.jpg",
+                Prueba4: "https://mejorconsalud.as.com/wp-content/uploads/2023/08/tratamiento-keratina-cabello-1200x876.jpg",
+                Prueba5: "https://equalsaludybelleza.com/wp-content/uploads/2023/07/Limpieza-facial-para-hombres-1.jpg",  
+                Prueba6: "https://www.materialestetica.com/blog/wp-content/uploads/2022/03/mascarilla-facial-tipos-funciones-usos-piel-733.png",  
+                Prueba7: "https://emsalud.com/wp-content/uploads/2023/05/Masajes-terapeutico-y-masajes-de-relajacion-%C2%BFdiferencias.png",  
+                Prueba8: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqHEfNlrRNa_pbKqzGZuBIdYcg_D_49FwjWQ&s",
+                Prueba9: "https://img.freepik.com/foto-gratis/grupo-multirracial-jovenes-creativos-ropa-casual-elegante-discutiendo-negocios-dandose-mano-juntos_7861-3059.jpg?size=626&ext=jpg&ga=GA1.1.2116175301.1717372800&semt=sph",  
+                Prueba10: "https://clicandpost.com/wp-content/uploads/2021/11/front-view-woman-getting-her-manicure-done-at-the-salon-scaled-1.jpg"    
+
+            };
+
+                for (let i = 1; i <= 10; i++) {
+                    const button = document.getElementById(`Prueba${i}`);
+                    button.addEventListener('click', function () {
+                      modal.style.display = 'block';
+                      const buttonId = this.id;
+                         imageElement.src =images[buttonId];
+                          });
+                     }
+
+             modal.addEventListener('click', function (event) {
+               if (event.target === modal) {
+                 modal.style.display = 'none';
+                 }
+                });
+
+                closeButton.addEventListener('click', function () {
+                  modal.style.display = 'none';
+                   });
+                const botones = document.querySelectorAll(".ModalBotones button");
+
+                botones.forEach(boton => {
+                    boton.addEventListener("click", function () {
+                        botones.forEach(boton => {
+                            boton.classList.remove("seleccionado");
+                        });
+                        this.classList.add("seleccionado");
+                    });
+                });
+                function verValorFecha(num){
+                var fecha=document.getElementById("fecha");
+                var juntofecha=document.getElementById("recolector");
+                var botones=document.getElementById("btn"+num);
+                fecha.addEventListener("change",()=>{
+                  juntofecha.value=fecha.value+" "+botones.value;
+               })
+                juntofecha.value=fecha.value+" "+botones.value;
+               }
+               function verServicio(num){
+             
+                var Servicio=document.getElementById("recolector-servicios");
+                var Prueba=document.getElementById("Prueba"+num);
+                fecha.addEventListener("change",()=>{
+                  Servicio.value=Prueba.value;
+               })
+                Servicio.value=Prueba.value;
+               }
+            </script>
+        </div>
+</body>
+</html>

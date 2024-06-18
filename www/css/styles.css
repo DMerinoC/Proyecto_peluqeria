@@ -1,0 +1,71 @@
+*{
+    font-family: "Rubik", sans-serif;
+}
+nav{
+    background-color: rgb(0, 153, 0);
+}
+h1{
+    color: white !important;
+    font-size: 35px;
+}
+.nav-item a{
+    color: white !important;
+    font-size: 20px;
+}
+h1:hover{
+    color: rgb(0, 28, 167) !important;
+}
+.nav-item a:hover{
+    color: black !important;
+    font-size: 20px;
+}
+.centrarElementos{
+    display: flex;
+    justify-content: center;
+}
+.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#carrusel{
+    padding: 0px;
+}
+.footer{
+    background-color: rgb(0, 48, 29);
+}
+.footer h3{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    text-transform: uppercase;
+}
+.btnEspecial{
+    background-color: rgba(201, 173, 227, 0.5);
+    border-radius: 25%;
+    padding: 10px;
+}
+.divCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.divCenter h1, p{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+    background-color: rgba(0, 12, 144, 0.621);
+}
+
+.mover{
+    float: right;
+}
+.posicion{
+    position: relative;
+    display: flex;
+    justify-content: end;
+}

@@ -1,0 +1,28 @@
+idcita,cusuario,nombre,precio,iddescuento,descuento,descripcion,fecha,estado
+1,Sage,"Corte dama",30.00,2,5.00,cortesia,"2024-06-20 01:56:00",0
+2,mayroluwu,"Mascarillas faciales",40.00,4,5.00,cortesia,"2024-06-28 06:18:00",0
+4,mayroluwu,Manicura,40.00,1,5.00,cortesia,"2024-05-01 02:50:00",1
+5,alonso,"Corte varón",30.00,4,5.00,cortesia,"2024-06-07 21:59:00",1
+6,hola,Masajes,90.00,5,5.00,cortesia,"2024-06-07 21:59:00",1
+7,nuevo,"Corte varón",30.00,1,5.00,cortesia,"2024-06-07 22:00:00",1
+8,kimono,"Corte varón",30.00,1,5.00,cortesia,"2024-06-07 22:00:00",1
+9,mayroluwu,"Corte varón",30.00,1,5.00,cortesia,"2024-06-07 22:00:00",1
+10,mayroluwu,"Extensiones de pestaña",20.00,6,5.00,cortesia,"2024-06-07 22:00:00",1
+11,dmerino,"Corte varón",30.00,1,5.00,cortesia,"2024-06-05 02:28:00",1
+13,diego,"Corte dama",30.00,7,5.00,cortesia,"2024-06-07 22:00:00",1
+14,Sage,"Corte dama",30.00,2,5.00,cortesia,"2024-06-07 22:01:00",1
+15,ninja,"Corte niños",30.00,1,5.00,cortesia,"2024-04-28 23:40:00",0
+16,capi,"Limpieza facial",60.00,5,5.00,cortesia,"2024-04-28 23:40:00",0
+17,capi,"Limpieza facial",60.00,5,5.00,cortesia,"2024-04-28 23:40:00",0
+18,capi,"Limpieza facial",60.00,5,5.00,cortesia,"2024-04-28 23:40:00",0
+19,capi,"Limpieza facial",60.00,5,5.00,cortesia,"2024-04-28 23:40:00",0
+25,diego,Masajes,90.00,1,5.00,cortesia,"2024-06-04 15:00:00",0
+26,ninja,"Mascarillas faciales",40.00,2,5.00,cortesia,"2024-06-04 15:00:00",0
+32,capi,"Limpieza facial",60.00,5,5.00,cortesia,"2024-04-28 23:40:00",0
+33,capi,"Limpieza facial",60.00,5,5.00,cortesia,"2024-04-28 23:40:00",0
+34,capi,"Limpieza facial",60.00,5,5.00,cortesia,"2024-04-28 23:40:00",0
+35,capi,"Limpieza facial",60.00,5,5.00,cortesia,"2024-04-28 23:40:00",0
+36,lolo,Masajes,90.00,5,5.00,cortesia,"2024-04-28 23:40:00",0
+42,lolo,"Mascarillas faciales",40.00,1,5.00,cortesia,"2024-06-04 17:00:00",0
+45,mayroluwu,Manicura,40.00,5,5.00,cortesia,"2024-06-05 17:00:00",0
+49,lolo,"Limpieza facial",60.00,1,5.00,cortesia,"2024-06-05 09:00:00",0

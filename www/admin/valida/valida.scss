@@ -1,0 +1,11 @@
+$enable-transitions: true;
+
+@if $enable-transitions {
+  @keyframes progress-bar-stripes {
+    100% { background-position-x: $progress-height; }
+  }
+}
+
+.progress-bar {
+  animation: progress-bar-stripes 1s infinite linear;
+}
