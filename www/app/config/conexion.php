@@ -1,9 +1,9 @@
 <?php
     class conexion extends PDO{
         private $tipo = "mysql";
-        private $host = "localhost:3306";
+        private $host = "localhost:3000";
         private $user = "root";
-        private $password = "akjjyglc789";
+        private $password = "";
         private $db = "peluqueria";
         public function __construct(){
             $dsn = $this->tipo . ':host='. $this->host . ';dbname=' . $this->db;
